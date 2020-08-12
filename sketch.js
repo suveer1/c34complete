@@ -55,6 +55,6 @@ database.ref('/').update({
 function readstock(data){
   foodStock = data.val();
 }
-
+ 
 
 
