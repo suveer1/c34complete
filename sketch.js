@@ -31,10 +31,12 @@ function draw() {
 
   if(keyWentDown(UP_ARROW)){
     writestock(foodStock);
-    dog = image(dogimg,200,300,100,100);
+    dog.addImage(dogimg);
+    dog.scale(0.2);
   }else{
  
-    dog = image(happydogimg,200,300,100,100);
+    dog.addImage(happydogimg);
+    dog.scale(0.2);
   }
   //image(dog,200,300,100,100);
   drawSprites();
