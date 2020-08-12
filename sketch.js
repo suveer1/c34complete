@@ -11,7 +11,7 @@ function setup() {
   database = firebase.database();
   //console.log(database);
 	createCanvas(500, 500);
-	dog=createSprite(250,300,150,150); 
+	dog=createSprite(250,350,150,150); 
 	dog.addImage(happydogimg); 
 	dog.scale=0.15;
   foodStock = database.ref('food');
