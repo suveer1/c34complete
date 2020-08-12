@@ -31,11 +31,11 @@ function draw() {
 
   if(keyWentDown(UP_ARROW)){
     writestock(foodStock);
-    dog.addImage(dogimg);
+    dog.addImage("dog"dogimg);
     dog.scale(0.2);
   }else{
  
-    dog.addImage(happydogimg);
+    dog.addImage("dog"happydogimg);
     dog.scale(0.2);
   }
   //image(dog,200,300,100,100);
