@@ -35,6 +35,7 @@ if(keyWentDown(UP_ARROW)){
 	writestock(foodStock);
 	dog.addImage(dogimg);
 	dog.scale=0.15;
+}
   }else{
  
     dog.addImage("dog"happydogimg);
