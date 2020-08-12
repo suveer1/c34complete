@@ -36,11 +36,6 @@ if(keyWentDown(UP_ARROW)){
 	dog.addImage(dogimg);
 	dog.scale=0.15;
 }
-  }else{
- 
-    dog.addImage("dog"happydogimg);
-    dog.scale(0.2);
-  }
   //image(dog,200,300,100,100);
   drawSprites();
   //add styles here
